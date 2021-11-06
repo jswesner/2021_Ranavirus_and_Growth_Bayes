@@ -1,0 +1,6 @@
+"0","#Now collapse length
+data_longest <- data_longer_3 %>% pivot_longer(cols=-c(individual, treatment_group, species_num, species, measure_instance, measure_date, alive_date, alive_status, mass_instance, mass), names_to=""length_instance"", values_to=""length"")
+"
+"2","Error: Can't combine `length_1` <character> and `stage` <double>.
+[90mRun `rlang::last_error()` to see where the error occurred.[39m
+"
